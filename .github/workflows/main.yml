@@ -36,9 +36,9 @@ jobs:
         key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
 
     - name: 安装依赖
-      if: steps.cache.outputs.cache-hit != 'true'
+      # if: steps.cache.outputs.cache-hit != 'true'
       run: |
-        npm install --save
+        # npm install --save
         npm install hexo-renderer-pug hexo-renderer-stylus --save  #新比较简洁
 
     - name: 生成静态文件
