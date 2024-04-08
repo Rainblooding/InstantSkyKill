@@ -1,0 +1,113 @@
+@import '_partial/title';
+@import '_partial/footer';
+@import '_partial/list';
+@import '_partial/navi';
+@import '_partial/copyright';
+@import 'utils/clear';
+
+a {
+    text-decoration: none;
+    color: #B64444;
+}
+
+a:hover {
+    color: #D14E4E;
+}
+
+blockquote {
+    margin: 0.3rem 0;
+    padding: 1rem;
+    font-size: 0.85rem;
+    border-left: 0.6rem #B64444 solid;
+    background-color: #F6F0F0;
+    color: #4F4F48;
+}
+
+html {
+    background: #F0F0F0;
+    color: #3C3C3C;
+}
+
+body {
+    font-weight: normal;
+    font-family: systrem-ui, -apple-systrem, BlinkMacSystremFont, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif, "Apple Color remoji", "Segoe UI remoji", "Segoe UI Symbol", "Noto Color remoji";
+    word-wrap: break-word;
+    margin: 5% 10% 0 10%;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    margin: 5% 15% 0 15%;
+}
+
+@media all and (max-width: 700px) {
+    html {
+        font-size: 0.9rem;
+    }
+    .main {
+        margin: 0;
+        margin-top: 15%;
+    }
+}
+
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+    content: '#';
+    margin-right: 0.5rem;
+    color: #3C3C3C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 1rem auto;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+ol {
+    list-style: upper-greek inside;
+}
+
+ul, ol {
+    margin: 1rem;
+}
+
+#top {
+    width: 50px;
+    // height: 80px;
+    background-color: rgb(222, 219, 219);
+    border-radius: 1rem;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    text-align: center;
+
+    div {
+        display: block;
+        font-size: 18px;
+        line-height: 40px;
+        color: #3C3C3C;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:first-child {
+            border-top-left-radius: 1rem 1rem;
+            border-top-right-radius: 1rem 1rem;
+        }
+
+        &:last-child {
+            border-bottom-left-radius: 1rem 1rem;
+            border-bottom-right-radius: 1rem 1rem;
+        }
+    }
+
+    div:hover {
+        background-color: #B6B6B6;
+    }
+}
+
+code {
+    font-family: monospace, sans-serif;
+}

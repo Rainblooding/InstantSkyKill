@@ -1,0 +1,30 @@
+<%- css('css/post') %>
+<post>
+
+  <div class="post_title">
+    <%- page.title %>
+  </div>
+
+  <br /><br />
+
+  <div id="post_content">
+    <%- page.content %>
+  </div>
+
+  <br />
+
+  <% if (theme.busuanzi && theme.busuanzi.enable) { %>
+  <!-- <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
+  <span id="busuanzi_container_site_pv">
+    <%= __("post.busuanzi.visit") %><span id="busuanzi_value_page_pv"></span>
+    <%= __("post.busuanzi.time") %>
+  </span>
+  <% } %>
+  <br /><br />
+
+
+  <%- partial('_partial/copyright') %>
+  <%- partial('_partial/top') %>
+  <%- partial('_partial/comment') %>
+
+</post>

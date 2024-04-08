@@ -1,0 +1,50 @@
+<foot id="footer">
+  <hr class="boldline" />
+  <br>
+
+  <p class="center font">
+    <% if (theme.author.github) { %>
+    <%- partial('_svg/github') %>
+    <% } %>
+    <% if (theme.author.email) { %>
+    <%- partial('_svg/email') %>
+    <% } %>
+    <% if (theme.author.telegram) { %>
+    <%- partial('_svg/telegram') %>
+    <% } %>
+    <% if (theme.author.instagram) { %>
+    <%- partial('_svg/instagram') %>
+    <% } %>
+    <% if (theme.author.twitter) { %>
+    <%- partial('_svg/twitter') %>
+    <% } %>
+    <% if (theme.author.youtube) { %>
+    <%- partial('_svg/youtube') %>
+    <% } %>
+    <% if (theme.author.facebook) { %>
+    <%- partial('_svg/facebook') %>
+    <% } %>
+    <% if (theme.author.weibo) { %>
+    <%- partial('_svg/weibo') %>
+    <% } %>
+    <% if (theme.author.zhihu) { %>
+    <%- partial('_svg/zhihu') %>
+    <% } %>
+    <% if (config.feed.enable) { %>
+    <%- partial('_svg/rss') %>
+    <% } %>
+  <p>
+    <br>
+  <p id="hitokoto">:D 获取中...</p>
+  <script src="https://v1.hitokoto.cn/?c=a&encode=js&select=%23hitokoto" defer></script>
+  <br>
+  <p class="center font">
+    &copy - <a href="<%- config.url %>"><%- config.author%></a> - <% if(theme.startYear < date(Date.now(), 'YYYY')){%> <%- theme.startYear %> - <% } %> <%- date(Date.now(), 'YYYY') %> - Powered by <a href="https://hexo.io/">Hexo</a> <% if(theme.showTheme) {%> Theme <a href="https://github.com/pcrab/hexo-theme-quark"> Quark </a> <% } %>
+  </p>
+  <% if (theme.beian) { %>
+  <p>
+    <a href="https://beian.miit.gov.cn/" target="_blank"><%= theme.beian %></a>
+  </p>
+  <% } %>
+  <br />
+</foot>

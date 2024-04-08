@@ -1,0 +1,107 @@
+# 在使用前请先阅读 README.md
+# Please read README.md before use this theme
+
+# favicon.ico 和 icon.png 都存放在 source 文件夹中
+# "favicon.ico" and "icon.png" are stored in "source" folder
+favicon: favicon.ico
+icon: icon.png
+
+# 作者简介，内容会显示在 about 页面上
+# author descriptions, all these information will be displayed on about page
+author:
+  github: "username"
+  email: "username@example.com"
+  telegram: "username"
+  instagram: ""
+  twitter: ""
+  weibo: ""
+  zhihu: ""
+  youtube: ""
+
+# 目前仅提供cc协议
+# currently only proviede cc
+copyright:
+  # 显示版权信息，0为关闭，1为对所有post生效，2为对文章中有"copyright: true"的文章才生效
+  # Show copyright info, 0 for close, 1 for all posts, 2 for all posts with "copyright: true"
+  open: 1
+  # 是否可被商用，0为不可，1为可
+  # whether can be used commercially, 0 for no, 1 for ok
+  commercial: 0
+  # 是否可被演绎，0为不可，1为在相同方式下可，2为可
+  # whether can be changed, 0 for no, 2 for ok, 1 for ok in the same circumstance
+  derivative: 1
+
+comment:
+  # 在此选择要使用的评论系统
+  # Please select Disqus or Valine
+  Select:
+  # 请访问 https://valine.js.org/ 并按照教程来配置使用 Valine 评论系统
+  # Please visit https://valine.js.org/ to lean how to get appid and appkey
+  Valine:
+    appid: blabla
+    appkey: blabla
+  Waline:
+    serverURL: ""
+    visitor: true
+  # 推荐使用 Disqus
+  # Recommended
+  Disqus:
+    shortname: example_name
+    # 如果需要代理，请访问 https://github.com/fooleap/disqus-php-api 来参考配置
+    # 注意，要使用代理，你首先需要一台能够访问 Disqus 的服务器
+    # If you need proxy, please visit https://github.com/fooleap/disqus-php-api to learn how to do so
+    # Important: you need a VPS which can connect to Disqus
+    needProxy: false
+    # 此处填写你的反代服务器的域名。请自行搭建，
+    # here is your proxy server's domain.
+    proxyUrl: https://disqus.example.com
+  LiveRe:
+    datauid: blabla
+  Gitalk:
+    clientID:
+    clientSecret:
+    owner:
+    repo:
+  # 需要自建,或付费使用官方版本（有试用）
+  # Need self host, or pay to use official version
+  Commento:
+    # 输入自建时使用的域名，如果使用的是官方版本，应为https://cdn.commento.io，最后不要加斜杠
+    # Please use your domain if you are self hosted. If you use the cloud service, the domain is https://cdn.commento.io, with no / at the end
+    domain: https://commento.example.com
+  # 参阅 https://giscus.app/zh-CN 以获取更多信息
+  # Visit https://giscus.app/ form more details
+  Giscus:
+    repo: user/repo
+    repoId: R_repoId
+    category: Announcements
+    categoryId: DIC_categoryId
+    mapping: title
+    strict: 1
+    reactionEnabled: 1
+    emitMetadata: 1
+    inputPosition: top
+    theme: light
+    lang: en
+    loading: lazy
+
+# 友链
+# friendlink
+friendlink:
+  enable: false
+  links:
+
+# 网站成立时间，若大于等于当前年份则不会显示
+# The start year of the site which won't be shown if is beyond current
+startYear: 2022
+
+# 显示页脚主题信息
+# show theme info
+showTheme: true
+
+# 不蒜子网页统计
+# busuanzi
+busuanzi:
+  enable: false
+
+# 备案
+beian:
