@@ -3,8 +3,14 @@ banner:
   title: CHEN
   border: true
   cloud:
-    enable: true
+    enable: false
     color: white
   go_down:
-    enable: true
+    enable: false
     icon: ri:arrow-down-s-line
+bg_image:
+  enable: true
+  url: https://raw.githubusercontent.com/Rainblooding/images/main/Genji.png
+  # dark:
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8
