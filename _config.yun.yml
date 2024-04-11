@@ -8,9 +8,3 @@ banner:
   go_down:
     enable: false
     icon: ri:arrow-down-s-line
-bg_image:
-  enable: true
-  url: https://github.com/Rainblooding/images/raw/main/Genji.png
-  # dark:
-  # blur: 30px # 设置背景模糊程度
-  opacity: 0.8
