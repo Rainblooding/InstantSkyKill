@@ -6,9 +6,11 @@ date: '2024-06-13T09:03:07.410722+08:00'
 tags:
 - X server
 title: 'bochs: cannot connect to X server :0'
-updated: '2024-06-13T09:03:09.628+08:00'
+updated: '2024-06-13T09:07:07.361+08:00'
 ---
 这个错误信息 "bochs: cannot connect to X server :0" 表示 Bochs 模拟器尝试使用图形界面，但无法连接到 X 服务器。X 服务器负责管理 Unix 类操作系统中的图形显示，包括在 Windows 子系统 Linux (WSL) 中运行的那些。
+
+<!-- more -->
 
 要解决这个问题，可以按照以下步骤操作：
 
