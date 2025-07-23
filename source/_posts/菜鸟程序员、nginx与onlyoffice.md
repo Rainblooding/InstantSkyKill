@@ -6,8 +6,8 @@ date: '2024-04-11T10:59:07.289692+08:00'
 tags:
 - nginx
 - onlyoffice
-title: 菜鸟程序员、nginx与onlyoffice
-updated: '2024-04-11T11:26:46.124+08:00'
+title: nginx与onlyoffice
+updated: '2025-07-23T08:36:57.666+08:00'
 ---
 > 背景：客户需要在浏览器里直接浏览word，对于一个使用java的项目来说难以实现。但是如果你知道onlyoffice的话一切都将迎刃而解（噩梦开端）。
 
