@@ -7,11 +7,9 @@ tags:
 - nginx
 - onlyoffice
 title: nginx与onlyoffice
-updated: '2025-07-23T08:36:57.666+08:00'
+updated: '2025-07-29T21:43:37.375+08:00'
 ---
-> 背景：客户需要在浏览器里直接浏览word，对于一个使用java的项目来说难以实现。但是如果你知道onlyoffice的话一切都将迎刃而解（噩梦开端）。
-
-我不准备介绍`onlyoffice`怎么用，因为我也不会用，我要介绍的是`onlyoffice`与`nginx`共同使用时的一个特殊情况，希望你永远也用不到。
+> 背景：客户需要在浏览器里直接浏览word，对于一个使用java的项目来说难以实现。但是如果你知道onlyoffice的话一切都将迎刃而解。
 
 <!-- more -->
 
